@@ -1,1 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Лаба№5</title>
+    <script src="./script.js"></script>
+</head>
+<body>
+   
+    <form>
+        <label>Кот</label>
+        <input type="submit" onclick="document.writeln(cat.makeNoise())" value="Кот издай звук">
+        <input type="submit" onclick="document.writeln(cat.Eat())" value="Держи еду">
+        <input type="submit" onclick="document.writeln(cat.Sleep())" value="Кот ложится спать"><br><br>
+        <label>Собака</label>
+        <input type="submit" onclick="document.writeln(dog.makeNoise())" value="Пёс издай звук">
+        <input type="submit" onclick="document.writeln(dog.Eat())" value="Держи еду">
+        <input type="submit" onclick="document.writeln(dog.Sleep())" value="Пёс ложится спать"><br><br>
+        <label>Конь</label>
+        <input type="submit" onclick="document.writeln(horse.makeNoise())" value="Конь издай звук">
+        <input type="submit" onclick="document.writeln(horse.Eat())" value="Держи еду">
+        <input type="submit" onclick="document.writeln(horse.Sleep())" value="Конь ложится спать"><br><br>
+        <label>Ветеринар</label>
+        <input type="submit" onclick="document.writeln(vet.treatAnimal(cat))" value="На приёме Кот">
+        <input type="submit" onclick="document.writeln(vet.treatAnimal(dog))" value="На приёме Пёс">
+        <input type="submit" onclick="document.writeln(vet.treatAnimal(horse))" value="На приёме Конь"><br><br>
 
+    </form>
+
+</body>
+</html>
