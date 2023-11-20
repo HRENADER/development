@@ -24,9 +24,9 @@ var Cars = [
 ];
 
 var Book = [
-    new createObject('НазваниеКниги', 'ДатаПубликации', 'The Witcher. The Last Wish', 1986),
-    new createObject('НазваниеКниги', 'ДатаПубликации', 'The Hobbit', 1937),
-    new createObject('НазваниеКниги', 'ДатаПубликации', 'Дом в котором', 2000)
+    new createObject('НазваниеКниги', 'ДатаПубликации', 'Книга эмоций', 2022),
+    new createObject('НазваниеКниги', 'ДатаПубликации', 'Анализ по Фрейду', 1921),
+    new createObject('НазваниеКниги', 'ДатаПубликации', 'Американский психопат', 1991)
 ];
 document.writeln('Люди' + '<br>');
 for(var i = 0; i < Persons.length; i++){
